@@ -1,0 +1,27 @@
+{
+    "root": true,
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "moduleDirectory": ["node_modules", "src/"]
+            }
+        }
+    },
+    "parser": "@babel/eslint-parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true,
+            "impliedStrict": true
+        },
+        "ecmaVersion": 12
+    },
+    "plugins": ["prettier", "react"]
+    // "extends": ["airbnb", "prettier", "plugin:react/jsx-runtime", "plugin:jsx-a11y/recommended"],
+    // "rules": {
+    //     ... (other rules)
+    // }
+}

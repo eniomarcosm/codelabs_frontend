@@ -1,0 +1,11 @@
+{
+    "jwtPrivateKey": "API_PIAGET",
+    "db": {
+      "host": "localhost",
+      "user": "root",
+      "password": "",
+      "database": "danos_codlabs"
+    },
+    "requiresAuth": false
+  }
+
